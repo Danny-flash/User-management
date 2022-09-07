@@ -1,0 +1,19 @@
+nav{
+    margin-top: 20px;
+}
+
+.nav-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.nav-container p{
+    font-size: 25px;
+Line-height: 29px;
+color: var(--color-logo);
+font-weight: 600;
+}

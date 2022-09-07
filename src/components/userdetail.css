@@ -1,0 +1,141 @@
+
+
+.detail{
+    background-color: var(--dashboard-bckg);
+    min-height: 90vh;
+    padding-bottom: 20px;
+}
+
+
+.navigate-back{
+    display: flex;
+    align-items: center;
+    background-color:var(--dashboard-bckg);
+    padding: 15px 0px;
+}
+
+.navigate-back a{
+   margin: 0;
+   padding: 4px 8px;
+   font-size: 27px;
+   background-color: #fff;
+   font-size: 20px;
+   color: #2D323C;
+   margin-right: 30px;
+   border-radius: 7px;
+}
+.navigate-back p{
+   margin: 0;
+   padding: 0;
+   font-size: 28px;
+   color: #2D323C;
+   font-weight: 600;
+}
+
+.details-page{
+    background-color: var(--table-bckg);
+    width: 85%;
+    margin: auto;
+    border-radius: 7px;
+    
+}
+.detail-page-header{
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 25px;
+}
+.detail-page-header p{
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 600;
+}
+.detail-page-header p:nth-child(1){
+    margin-right: 10%;
+}
+
+.detail-body{
+    display: flex;
+    padding: 0px 30px;
+    gap: 10%;
+}
+
+.detail-info{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #D0D3D9;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    border-radius: 8px;
+}
+
+.detail-body-left{
+    width: 40%;
+}
+.detail-body-right{
+    width: 40%;
+}
+
+.detail-info p:first-child{
+    color: #909399;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.detail-info p:last-child{
+  text-align: center ;
+  margin: 20px 0px;
+  font-size: 18px;
+}
+
+.activee{
+    background-color: #CDF7EC;
+    color: #048F6B;
+    padding: 4px 10px;
+    border-radius: 7px;
+}
+.inactive{
+    background-color: #f1636a;
+    color: #3d0609;
+    padding: 4px 10px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .navigate-back p{
+        font-size: 18px;
+    }
+     
+
+    .detail-body{
+        display: flex;
+        padding: 0px 30px;
+        gap: 10%;
+        flex-direction: column;
+        width: 100%;
+    }
+    .detail-body-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .detail-body-right{
+        width: 100%;
+    }
+    .detail-body{
+        padding: 0px 15px;
+
+    }
+    .detail-info p:first-child{
+        font-size: 14px;
+    }
+    
+    .detail-info p:last-child{
+     font-size: 14px;
+    }
+}

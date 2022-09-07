@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+
+:root{
+  --color-dark: hsl(240, 29%, 17%);
+  --color-white: hsl(252, 30%, 95%);
+  --color-gray: #A3A6AD;
+  --color-secondary: hsl(252, 100%, 90%);
+  --color-success: hsl(120, 95%, 65%);
+  --color-danger: hsl(0, 95%, 65%);
+  --color-black: hsl(252, 5%, 8%);
+  --color-shade: hsl(252, 5%, 13%);
+  --color-secondary: hsl(252, 100%, 90%);
+ --color-dark-variant: #2c2c6c;
+ --color-primary: #4db5ff;
+ --color-primary-variant: rgba(77, 181, 255, 0.4);
+ --color-shade: hsl(240, 1%, 30%);
+  --color-logo: #eef0f5;
+--dashboard-bckg: #4db5ff;
+--transparent-btn:  hsl(252, 30%, 95%);;
+
+--table-bckg: hsl(240, 29%, 17%);
+  
+
+}
+
+body.dark{
+  font-family: 'Inter', sans-serif;
+   background-color: var(--color-dark);
+   color: var(--color-white);
+}
+
+body.light{
+  --table-bckg: #fff;
+  --color-dark: hsl(0, 0%, 96%);
+  --backdrop-filter-color: hsl(252, 5%, 8%);
+  --backdrop-background: rgba(85, 84, 84, 0.5);
+  --color-black: hsl(252, 100%, 90%);
+  --color-gray: hsl(240, 3%, 7%);
+  --color-success: hsl(120, 90%, 34%);
+  --color-shade: hsl(240, 1%, 30%);
+  --color-logo: #2d323c;
+  --color-white: #2d323c;
+  --dashboard-bckg: #F4F7FC;
+  --transparent-btn: #1B66F8;
+  font-family: 'Inter', sans-serif;
+}
+
+
+#darkmode{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius:7px;
+  transition: all .3s ease-in-out;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 7px 10px;
+}
+
+*,
+*::before, 
+*::after{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: var(--border2-radius);
+  transition: all .3s ease-in-out;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+}
+
+
+.btn-primary{
+  background: #2D72F7;
+  color: white;
+}
+
+
+.btn-primary:hover{
+background-color: #1757D4;
+}
+.btn-primary:focus{
+background-color: #1244A5;
+}
+
+.btn-disabled {
+  background-color: #D0D3D9;
+  color: #A3A6AD;
+}
+
+.text-muted{
+  color: var(--color-gray);
+}
+
+input[type = "checkbox"] {
+    padding: 500px;
+}

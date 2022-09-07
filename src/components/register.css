@@ -1,0 +1,130 @@
+
+
+
+
+
+.register-container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+header{
+    text-align: center
+}
+header h1{
+    color: #1244A5;
+    font-size: 48px;
+    margin-top: 20px;
+}
+header p{
+    font-size: 18px;
+    color: var(--color-logo);
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+
+.form{
+     margin-top: 20px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 60%;
+     margin: auto;
+}
+
+.form input, .form select{
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px 12px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border: 1px solid #A3A6AD;
+}
+
+.form select{
+    margin-bottom: 40px;
+}
+
+.form label{
+    width: 100%;
+}
+
+.form input::placeholder, .yo{
+    color: #A3A6AD;
+    font-size: 11px;
+    font-style: italic;
+}
+select{
+    margin-bottom: 25px;
+}
+.name-sec{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.form button {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px 12px;
+    text-align: center;
+}
+
+.form select option{
+    text-align: left;
+    padding: 7px;
+    background-color: #F0F3F7;
+    margin-bottom: 10px;
+}
+
+.login-link{
+    margin-bottom: 30px;
+}
+.login-link a{
+    color: #1244A5;
+}
+
+
+@media screen and (max-width: 1024px) {
+    header h1{
+        font-size: 38px;
+    }
+    header p{
+        font-size: 15.6px;
+    }
+    .form{
+        width: 100%;
+   }
+}
+@media screen and (max-width: 500px) {
+    .register-container{
+        width: 90%;
+    }
+    header h1{
+        font-size: 28px;
+        margin-top: 38px;
+    }
+    header p{
+        font-size: 14px;
+    }
+    .form{
+        width: 100%;
+   }
+   .form input, .form select{
+    margin-bottom: 35px;
+}
+
+.form select{
+    margin-bottom: 50px;
+}
+
+
+.form button{
+    margin-bottom: 35px;
+}
+  
+ 
+}
